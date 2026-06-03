@@ -20,11 +20,13 @@
             --color-y: #b927fc;
             --color-z: #ff2a85;
             --color-t: #ffca28;
+            --color-s: #356eb8;
             
             --glow-x: drop-shadow(0 0 15px rgba(0, 242, 254, 0.6));
             --glow-y: drop-shadow(0 0 15px rgba(185, 39, 252, 0.6));
             --glow-z: drop-shadow(0 0 15px rgba(255, 42, 133, 0.6));
             --glow-t: drop-shadow(0 0 15px rgba(255, 202, 40, 0.6));
+            --glow-s: drop-shadow(0 0 15px rgba(53, 110, 184, 0.6));
         }
 
         * {
@@ -214,7 +216,7 @@ nav .logo-img {
         .card-y { --border-hover: var(--color-y); --glow-effect: var(--glow-y); }
         .card-z { --border-hover: var(--color-z); --glow-effect: var(--glow-z); }
         .card-t { --border-hover: var(--color-t); --glow-effect: var(--glow-t); }
-
+        .card-s { --border-hover: var(--color-s); --glow-effect: var(--glow-s); }
         .course-card:hover {
             transform: translateY(-8px);
             border-color: var(--border-hover);
@@ -250,6 +252,7 @@ nav .logo-img {
         .card-y .status-tag { color: var(--color-y); }
         .card-z .status-tag { color: var(--color-z); }
         .card-t .status-tag { color: var(--color-t); }
+         .card-s .status-tag { color: var(--color-s); }
 
         /* CHI TIẾT KHÓA HỌC & BUTTONS */
         .detail-header {
@@ -598,7 +601,8 @@ function toggleSidebar() {
     'X': { badge: 'Khóa X', color: 'var(--color-x)', title: 'Chuyên đề: Hàm Số Toán Học', desc: '<p>Khóa học toàn diện về hàm số, tập trung vào kỹ thuật khảo sát, cực trị, tương giao đồ thị và phương pháp giải nhanh trắc nghiệm dựa trên đồ thị trực quan.</p><p><strong>Lịch khai giảng:</strong> Ngày 30 tháng 06 năm 2026.</p>' },
     'Y': { badge: 'Khóa Y', color: 'var(--color-y)', title: 'Chuyên đề: Hình Học Không Gian', desc: '<p>Làm chủ phương pháp dựng hình, tính khoảng cách và góc. Học chuyên sâu phương pháp tọa độ hóa Oxyz để đơn giản hóa các bài toán hình học phức tạp.</p><p><strong>Trạng thái:</strong> Sắp ra mắt (Coming Soon).</p>' },
     'Z': { badge: 'Khóa Z', color: 'var(--color-z)', title: 'Chuyên đề: Nguyên Hàm & Tích Phân', desc: '<p>Tổng hợp toàn bộ các phương pháp tính tích phân từ cơ bản đến vận dụng cao. Ứng dụng tích phân tính diện tích hình phẳng và thể tích vật thể tròn xoay.</p><p><strong>Trạng thái:</strong> Sắp ra mắt (Coming Soon).</p>' },
-    'T': { badge: 'Khóa T', color: 'var(--color-t)', title: 'Chuyên đề: Tổ Hợp & Xác Suất', desc: '<p>Xóa tan nỗi sợ các bài toán đếm. Khóa học xây dựng tư duy phân tích chuẩn mực cho các mô hình xác suất cổ điển, chọn bi, chọn người cùng lý thuyết nhị thức Newton.</p><p><strong>Trạng thái:</strong> Sắp ra mắt (Coming Soon).</p>' }
+    'T': { badge: 'Khóa T', color: 'var(--color-t)', title: 'Chuyên đề: Tổ Hợp & Xác Suất', desc: '<p>Xóa tan nỗi sợ các bài toán đếm. Khóa học xây dựng tư duy phân tích chuẩn mực cho các mô hình xác suất cổ điển, chọn bi, chọn người cùng lý thuyết nhị thức Newton.</p><p><strong>Trạng thái:</strong> Sắp ra mắt (Coming Soon).</p>' },
+    'S': { badge: 'Khóa S', color: 'var(--color-s)', title: 'Ôn luyện SPT', desc: '<p>SPT là kỳ thi đánh giá năng lực chuyên biệt của trường Đại học Sư Phạm Hà Nội, đây là mỗi trong những cánh cửa để bước vào ngôi trường đại học mà chúng ta hằng mơ ước.</p><p><strong>Trạng thái:</strong> Sắp ra mắt (Coming Soon).</p>' }
 };
 
 let currentSelectedCourseCode = '';
