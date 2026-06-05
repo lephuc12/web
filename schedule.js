@@ -16,16 +16,16 @@ const scheduleData = {
             }
         ],
         calendar: [
-            { id: 1, title: "Tính đơn điệu và cực trị của hàm số", time: "22:00-23:30", date: "30-06-2026" },
-            { id: 2, title: "Luyện tập tính đơn điệu và cực trị của hàm số", time: "22:00-23:30", date: "04-07-2026" },
-            { id: 3, title: "GTLN-GTNN của hàm số", time: "22:00-23:30", date: "07-07-2026" },
-            { id: 4, title: "Luyện tập GTLN-GTNN của hàm số", time: "22:00-23:30", date: "11-07-2026" },
-            { id: 5, title: "Đường tiệm cận của đồ thị hàm số", time: "22:00-23:30", date: "14-07-2026" },
-            { id: 6, title: "Luyện tập đường tiệm cận của đồ thị hàm số", time: "22:00-23:30", date: "18-07-2026" },
-            { id: 7, title: "Khảo sát đồ thị hàm số 1", time: "22:00-23:30", date: "21-07-2026" },
-            { id: 8, title: "Khảo sát đồ thị hàm số 2", time: "22:00-23:30", date: "25-07-2026" },
-            { id: 9, title: "Luyện tập khảo sát đồ thị hàm số", time: "22:00-23:30", date: "28-07-2026" },
-            { id: 10, title: "Đề thi thử Hàm số", time: "22:00-23:30", date: "01-08-2026" }
+            { id: 1, title: "Tính đơn điệu và cực trị của hàm số", time: "19:30-21:00", date: "30-06-2026" },
+            { id: 2, title: "Luyện tập tính đơn điệu và cực trị của hàm số", time: "19:30-21:00", date: "04-07-2026" },
+            { id: 3, title: "GTLN-GTNN của hàm số", time: "19:30-21:00", date: "07-07-2026" },
+            { id: 4, title: "Luyện tập GTLN-GTNN của hàm số", time: "19:30-21:00", date: "11-07-2026" },
+            { id: 5, title: "Đường tiệm cận của đồ thị hàm số", time: "19:30-21:00", date: "14-07-2026" },
+            { id: 6, title: "Luyện tập đường tiệm cận của đồ thị hàm số", time: "19:30-21:00", date: "18-07-2026" },
+            { id: 7, title: "Khảo sát đồ thị hàm số 1", time: "19:30-21:00", date: "21-07-2026" },
+            { id: 8, title: "Khảo sát đồ thị hàm số 2", time: "19:30-21:00", date: "25-07-2026" },
+            { id: 9, title: "Luyện tập khảo sát đồ thị hàm số", time: "19:30-21:00", date: "28-07-2026" },
+            { id: 10, title: "Đề thi thử Hàm số", time: "19:30-21:00", date: "01-08-2026" }
         ]
     },
     'Y': {
